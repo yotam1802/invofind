@@ -1,0 +1,78 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #5841d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    flex: 0 0 70px;
+}
+
+.homeContainer {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.home {
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    width: 9%;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.login {
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 28px;
+}
+
+.login:hover {
+    background-color: #7767e4;
+}
+
+.register {
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 28px;
+    color: #5841d8;
+    background-color: white;
+}
+
+.register:hover {
+    background-color: #e9e9e9;
+}
+
+.links {
+    font-size: large;
+    font-weight: 500;
+}
